@@ -6,8 +6,11 @@ const scraperObject = {
         let page = await browser.newPage();
         console.log(`Navigating to ${this.url}...`);
         await page.goto(this.url, { waitUntil: 'networkidle0' });
+
         //Logic
-        
+        // Click all detail and keep link picture and Brand car 
+        // N Scrolldown and wait network idle
+        // Do again
     }
 }
 
