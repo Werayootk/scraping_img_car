@@ -1,0 +1,26 @@
+{
+  "name": "scraping_img_car",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Werayootk/scraping_img_car.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Werayootk/scraping_img_car/issues"
+  },
+  "homepage": "https://github.com/Werayootk/scraping_img_car#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "nodemon": "^2.0.15",
+    "puppeteer": "^13.0.1"
+  }
+}
